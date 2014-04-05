@@ -1,0 +1,36 @@
+{
+  "name": "transport-localizr",
+  "version": "0.0.1",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "keywords": [
+    "transport",
+    "nearest",
+    "spatial"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdesboeufs/transport-localizr.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdesboeufs/transport-localizr/issues"
+  },
+  "homepage": "https://github.com/jdesboeufs/transport-localizr",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~3.5.1",
+    "csv": "~0.3.7",
+    "q": "~1.0.1",
+    "request": "~2.34.0",
+    "lodash": "~2.4.1",
+    "mongodb": "~1.4.0",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0"
+  }
+}
